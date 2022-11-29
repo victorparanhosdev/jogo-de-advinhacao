@@ -3,9 +3,21 @@ let numerRandomico = Math.round(Math.random() * 10)
 let inputNumber = document.querySelector('#btn-numero')
 let botaoTentar = document.querySelector('#btn-tentar')
 let botaJogarNovamente = document.querySelector('#btn-jogar-novamente')
+let botaTentarNovamente = document.querySelector('#btn-tentar-novamente')
 
 botaJogarNovamente.addEventListener("click", jogarnovamente)
 botaoTentar.addEventListener("click", rodarjogo)
+botaTentarNovamente.addEventListener("click", function tentarnovamente(){
+    
+    document.querySelector('.caixa-1').classList.remove("hide")
+    document.querySelector('.caixa-3').classList.add("hide")
+    
+})
+
+function tentarnovamente() {
+   
+}
+
 
 let contagem = 1
 
@@ -31,8 +43,12 @@ function rodarjogo(){
         contagem = 1
 
     }else {
+        document.querySelector('.caixa-1').classList.add("hide")
+        document.querySelector('.caixa-3').classList.remove("hide")
         inputNumber.value = ''
         contagem++
+
+        
     }
 
 

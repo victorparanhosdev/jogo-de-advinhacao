@@ -50,7 +50,7 @@ input, button {
 
 }
 
-#btn-tentar, #btn-jogar-novamente{
+#btn-tentar, #btn-jogar-novamente, #btn-tentar-novamente{
     padding: 1rem;
     cursor: pointer;
     background-color: brown;
@@ -62,10 +62,10 @@ input, button {
 
 
 }
-#btn-jogar-novamente {
+#btn-jogar-novamente, #btn-tentar-novamente {
     border-radius: 0.5rem;
 }
-#btn-tentar:hover, #btn-jogar-novamente:hover {
+#btn-tentar:hover, #btn-jogar-novamente:hover, #btn-tentar-novamente:hover {
     background-color: rgb(167, 64, 64);
 }
 
@@ -78,11 +78,11 @@ main {
     padding: 3rem;
 }
 
-.caixa-2.hide, .caixa-1.hide {
+.caixa-2.hide, .caixa-1.hide, .caixa-3.hide {
     display: none;
 }
 .texto-tentativa {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     margin-bottom: 2rem;
 }
 
