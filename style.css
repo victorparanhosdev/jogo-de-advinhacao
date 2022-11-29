@@ -72,7 +72,7 @@ input, button {
 
 main {
     margin-top: -15rem;
-    width: min(32rem, 95%);
+    width: min(320px, 95%);
     background-color: rgba(255, 255, 255, 0.2);
     text-align: center;
     border-radius: 1rem;
