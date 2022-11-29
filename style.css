@@ -12,7 +12,7 @@ body {
    background: linear-gradient(145deg,brown 50%, salmon 100% );
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
-    min-height: 100vh;
+    height: 100vh;
     
     display: grid;
     place-items: center;
@@ -71,13 +71,13 @@ input, button {
 }
 
 main {
-    margin-top: -15rem;
+    margin-top: -25rem;
     width: 95%;
     background-color: rgba(255, 255, 255, 0.2);
     text-align: center;
     border-radius: 1rem;
     padding: 3rem;
-    overflow: hidden;
+
 }
 
 .caixa-2.hide, .caixa-1.hide, .caixa-3.hide {
