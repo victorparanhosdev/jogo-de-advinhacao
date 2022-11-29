@@ -4,7 +4,7 @@ let inputNumber = document.querySelector('#btn-numero')
 let botaoTentar = document.querySelector('#btn-tentar')
 let botaJogarNovamente = document.querySelector('#btn-jogar-novamente')
 let botaTentarNovamente = document.querySelector('#btn-tentar-novamente')
-inputNumber.focus()
+
 botaJogarNovamente.addEventListener("click", jogarnovamente)
 botaoTentar.addEventListener("click", rodarjogo)
 botaTentarNovamente.addEventListener("click", function tentarnovamente(){
