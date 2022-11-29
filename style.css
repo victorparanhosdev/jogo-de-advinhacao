@@ -72,11 +72,15 @@ input, button {
 
 main {
     margin-top: -25rem;
-    width: 95%;
+    height: 18rem;
+    width: min(310px, 98%);
     background-color: rgba(255, 255, 255, 0.2);
     text-align: center;
     border-radius: 1rem;
-    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 
 }
 
@@ -91,7 +95,7 @@ main {
 
 @media (min-width: 426px) {
     main {
-        width: 42.5rem;
+        width: 425px;
         padding: 4rem;
     }
 }
