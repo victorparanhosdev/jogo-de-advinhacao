@@ -13,7 +13,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
     height: 100vh;
-    
+    overflow: hidden;
     display: grid;
     place-items: center;
 }
@@ -73,7 +73,7 @@ input, button {
 main {
     margin-top: -25rem;
     height: 18rem;
-    width: min(310px, 98%);
+    width: min(32rem, 98%);
     background-color: rgba(255, 255, 255, 0.2);
     text-align: center;
     border-radius: 1rem;
@@ -91,11 +91,17 @@ main {
     font-size: 2.2rem;
     margin-bottom: 2rem;
 }
-
+span {
+    font-weight: 300;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
 
 @media (min-width: 426px) {
     main {
-        width: 425px;
+        width: 42.5rem;
         padding: 4rem;
     }
 }

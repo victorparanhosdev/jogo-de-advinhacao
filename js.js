@@ -33,7 +33,8 @@ function rodarjogo(){
         inputNumber.focus()
 
     } else if(Number(inputNumber.value) == numerRandomico) {
-        document.querySelector('.texto-tentativa').innerText = `Acertou em ${contagem} ${plural(contagem)}`
+        document.querySelector('.texto-tentativa').innerHTML = `
+        Acertou em ${contagem} ${plural(contagem)}<br><span>Número escolhido: ${inputNumber.value}<br>Numero da maquina: ${numerRandomico}</span>`
         document.querySelector('.caixa-2').classList.remove("hide")
         document.querySelector('.caixa-1').classList.add("hide")
         numerRandomico = Math.round(Math.random() * 10)
